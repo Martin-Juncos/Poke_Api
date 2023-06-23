@@ -5,7 +5,6 @@ import style from './Aside.module.css'
 export default function Aside() {
     return (
         <div className={style.container} >
-            <h3>Aside</h3>
             <Filter/>
             <Sorter/>
         </div>

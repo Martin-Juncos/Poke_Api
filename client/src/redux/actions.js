@@ -126,15 +126,4 @@ export const orderByAttack = (ordenAttack) => {
   };
 };
 
-// export const orderByName = (orderName) => {
-//   return async function (dispatch, getState) {
-//     const allPokemons =  [...getState().allPokemons]; // necesito hacer una copia de mi pokemon originales, la guardo en un array, luego se mapea
-//     let sortedPokemons;
-//     if (orderName === "a-z") {
-//       sortedPokemons = allPokemons.sort((a, b) => a.name.localeCompare(b.name));
-//     } else if (orderName === "z-a") {
-//       sortedPokemons = allPokemons.sort((a, b) => b.name.localeCompare(a.name));
-//     }
-//     dispatch({ type: ORDER_BY_NAME, payload: sortedPokemons });
-//   };
-// };
+
