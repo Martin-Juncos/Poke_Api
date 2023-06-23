@@ -1,0 +1,9 @@
+.container{
+    background-color: rgb(125, 191, 125);
+    border: 1px solid black;
+    width: 150px; 
+    height: 280px;   
+}
+img{
+    width: 120px;
+}
